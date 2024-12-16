@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/ignite-media/",
   build: {
-    outDir: 'build',
+    outDir: 'dist',
+    assetsDir: 'assets',
   },
 });
